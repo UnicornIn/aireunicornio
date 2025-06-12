@@ -1,0 +1,7 @@
+print("mi primer ejercicio de Python")
+print("Hola, Python!")
+print("Hola, Python! soy un archivo Python")
+print("este es mi primer ejercicio de Python")
+print("tengo que hacer un ejercicio de Python")
+print("personalmente, creo que Python es un lenguaje de programación muy interesante")
+print("aunque no soy un experto en Python, estoy aprendiendo mucho")
