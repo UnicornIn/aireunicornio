@@ -5,4 +5,4 @@ print((nombre + "\n") * int(numero))'''
 nombre = input("introducir nombre")
 print(nombre.lower())
 print(nombre.upper())
-print(nombre.title()) 
+print(nombre.titl()) 
