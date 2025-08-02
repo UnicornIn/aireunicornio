@@ -1,4 +1,4 @@
-"""es como un conjunto de reglas o normas que le permite a los programadores como interactuar con el computador
+#es como un conjunto de reglas o normas que le permite a los programadores como interactuar con el computador
 
 #variables 
 edad = 78 #tipo int
@@ -10,9 +10,9 @@ print("edad",edad,"nombre", nombre, )
 numero1 = 165
 numero2 = 67
 suma = numero1 + numero2 
-print(suma)"""
+print(suma)
 
-""""
+
 
 my_string_variable = "my string variable"
 print(my_string_variable)
@@ -57,8 +57,7 @@ address = True
 address = 5
 address = 1.2
 print(type(address))
-"""
-''''
+
 llueve = False
 if llueve: 
       print("llevo sombrilla")
@@ -73,7 +72,7 @@ print("18")
 for i in range (7):
    print("samuel", i) 
 
-'''
+
 
 
 # Pedir al usuario un número entero
@@ -89,3 +88,21 @@ for i in range(N):
 
 # Imprimir el resultado
 print("La suma de los primeros", N, "números impares es:", suma)
+
+a=18
+b=30
+
+if a > b :
+      print("es mayor ",a)
+if b > a :
+
+      print("es mayor ",b)
+
+for i in range(1,   21):
+    print(i)
+numero = int(input("Ingresa un número: "))
+if numero % 2 == 0:
+    print("El número es PAR.")
+else:
+    print("El número es IMPAR.")
+  
