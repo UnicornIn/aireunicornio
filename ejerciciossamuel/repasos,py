@@ -1,0 +1,85 @@
+# 1) Crea una función que reciba un nombre como parámetro y muestre un saludo
+def saludar(nombre):
+    print("¡Hola,", nombre + "!")
+
+#  Ejemplo de uso
+saludar("Samuel")
+''''
+# 2) Crea una función que reciba dos números y devuelva su suma.
+def sumar(a, b):
+    return a + b
+
+# Ejemplo de uso
+resultado = sumar(3, 5)
+print("La suma es:", resultado)
+
+# 3) Pide al usuario un número y dile si es par o impar.
+numero = int(input("Ingresa un número: "))
+
+if numero % 2 == 0:
+    print("Es un número par.")
+else:
+    print("Es un número impar.")
+
+# 4) Pide al usuario su edad y dile si es mayor de edad (18 años o más) o no.
+edad = int(input("Ingresa tu edad: "))
+
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
+
+# 5) Crea una función que reciba la edad de una persona y diga si puede votar (mayor o igual a 18 años).
+def puede_votar(edad):
+    if edad >= 18:
+        print("Puedes votar.")
+    else:
+        print("No puedes votar aún.")
+
+# Uso
+edad_usuario = int(input("Ingresa tu edad: "))
+puede_votar(edad_usuario)
+
+
+
+# 1)Imprimir todos los elementos de una lista
+frutas = ["manzana", "banana", "naranja", "pera"]
+
+for fruta in frutas:
+    print(fruta)
+
+
+# -2. Agregar un elemento a la lista
+
+estudiantes = ["Ana", "Luis", "Carlos"]
+
+# Agregar un nuevo estudiante
+estudiantes.append("María")
+
+print("Lista actualizada de estudiantes:")
+print(estudiantes)
+
+# 3. Sumar todos los números de una lista
+
+numeros = (10,20,30,40)
+total = 0
+for numero in numeros:
+    total+= numero 
+print("la suma total es:",total)
+
+# 4 Imprimir los números del 1 al 5 uno por uno.
+for i in range (1,6):
+  print(i)'
+
+# 5 )Crea una lista con 5 números Usa un ciclo for para sumar todos los números de la lista, Imprime el resultado de la suma
+  # Paso 1: Crear la lista
+numeros = [4, 7, 1, 3, 5]
+
+# Paso 2: Sumar los números con un ciclo for
+suma = 0
+for num in numeros:
+    suma += num
+
+# Paso 3: Imprimir el resultado
+print("La suma total es:", suma)
+'''
